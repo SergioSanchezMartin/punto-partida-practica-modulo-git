@@ -17,7 +17,7 @@ const OPTIONS: Option[] = [
   {
     id: 2,
     title: "Opción 2",
-    description: "Ramas",
+    description: "Ramas de Git",
     message:
       "Una rama es una línea de desarrollo independiente. Puedes crear, fusionar y eliminar ramas sin afectar a main.",
     featureFlag: false,
@@ -30,14 +30,14 @@ const OPTIONS: Option[] = [
       "Un fork es una copia de un repositorio en tu cuenta. Puedes proponer cambios al original mediante un Pull Request.",
     featureFlag: true,
   },
-  // Añade aquí la Opción 4 durante la clase:
-  // {
-  //   id: 4,
-  //   title: 'Opción 4',
-  //   description: 'Descripción corta',
-  //   message: 'Escribe aquí el mensaje de la Opción 4.',
-  //   featureFlag: false,
-  // },
+  {
+    id: 4,
+    title: "Opción 4",
+    description: "Tags",
+    message:
+      "Un tag es una referencia fija a un commit. Se usa para marcar versiones: v1.0.0, v2.3.1…",
+    featureFlag: false,
+  },
 ];
 
 export default function App() {
