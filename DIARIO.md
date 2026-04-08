@@ -77,7 +77,7 @@ Toca resolver el conflicto en local usando el editor de VS Code. Abrimos el arch
 
 ![Captura 6a](capturas/captura-6a.png)
 
-![Captura 6b](capturas/captura-6a.png)
+![Captura 6b](capturas/captura-6b.png)
 
 Tal y como indica la tarea, nos quedamos con la descripción "Flujo profesional" (la versión de la rama `feature/opcion-6`) pulsando **Accept Current Change**. Además, queremos que la app en el navegador muestre todas las opciones visibles tras resolver el conflicto, por lo que pulsamos **Accept Both Changes**. Pero además, tenemos que añadir las líneas `{` y `},` y ponemos las opciones 5 y 6 en orden.
 
