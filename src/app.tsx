@@ -38,6 +38,14 @@ const OPTIONS: Option[] = [
       "Un tag es una referencia fija a un commit. Se usa para marcar versiones: v1.0.0, v2.3.1…",
     featureFlag: false,
   },
+  {
+    id: 6,
+    title: "Opción 6",
+    description: "gitignore",
+    message:
+        "El fichero .gitignore le dice a Git qué ficheros debe ignorar. Úsalo para excluir ficheros de entorno (.env), dependencias (node_modules) y cualquier cosa que no deba estar en el repositorio.",
+    featureFlag: false,
+  },
 ];
 
 export default function App() {
