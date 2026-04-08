@@ -25,7 +25,7 @@ const OPTIONS: Option[] = [
   {
     id: 3,
     title: "Opción 3",
-    description: "Forks",
+    description: "Flujo de trabajo",
     message:
       "Un fork es una copia de un repositorio en tu cuenta. Puedes proponer cambios al original mediante un Pull Request.",
     featureFlag: true,
@@ -36,6 +36,14 @@ const OPTIONS: Option[] = [
     description: "Tags",
     message:
       "Un tag es una referencia fija a un commit. Se usa para marcar versiones: v1.0.0, v2.3.1…",
+    featureFlag: false,
+  },
+  {
+    id: 5,
+    title: "Opción 5",
+    description: "Pull Request",
+    message:
+        "Una Pull Request es una propuesta formal para incorporar cambios de una rama a otra. Permite revisar el código antes de mergear y deja un historial claro de qué se hizo y por qué.",
     featureFlag: false,
   },
 ];
